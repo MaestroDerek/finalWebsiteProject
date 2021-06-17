@@ -12,6 +12,7 @@ import AboutUsPage from "pages/AboutUsPage.js";
 import AccomplishmentsPage from "pages/AccomplishmentsPage.js";
 import ProjectsPage from "pages/ProjectsPage.js";
 import AboutWebsitePage from "pages/AboutWebsite.js";
+import ContactMePage from "pages/ContactMePage.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -28,6 +29,10 @@ ReactDOM.render(
       <Route
         path="/about-website"
         render={(props) => <AboutWebsitePage {...props} />}
+      />
+      <Route
+        path="/contact_me"
+        render={(props) => <ContactMePage {...props} />}
       />
       <Route
         path="/projects"

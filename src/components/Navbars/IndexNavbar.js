@@ -96,7 +96,7 @@ export default function IndexNavbar() {
             <NavItem>
               <Button
                 className="nav-link d-none d-lg-block"
-                color="default"
+                color="danger"
                 href="/projects"
               >
                 My Projects
@@ -105,10 +105,19 @@ export default function IndexNavbar() {
             <NavItem>
               <Button
                 className="nav-link d-none d-lg-block"
-                color="default"
+                color="danger"
                 href="/accomplishments"
               >
                 Accomplishments
+              </Button>
+            </NavItem>
+            <NavItem>
+              <Button
+                className="nav-link d-none d-lg-block"
+                color="danger"
+                href="/contact_me"
+              >
+                Contact Me
               </Button>
             </NavItem>
           </Nav>
