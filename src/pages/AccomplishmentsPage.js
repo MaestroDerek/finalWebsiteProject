@@ -59,7 +59,22 @@ export default function LandingPage() {
                   Accomplishments
                 </h1>
                 <p className="text-white mb-3">
-                  Add stuff here...
+                University of Rio Grande (06/01/2018)
+                AAS IT:Networking Systems
+
+                Rowan College at Burlington County (06/01/2020)
+                AAS Computer Science
+
+                Rowan College (Expected 12/30/2021)
+                BS Computer Science
+
+                Current Intern as AFMS since 05/14/2018
+
+                successfully survived COVID-19
+
+                Once bowled a 200
+                
+                Met Kanye West
                 </p>
               </Col>
             </Row>
