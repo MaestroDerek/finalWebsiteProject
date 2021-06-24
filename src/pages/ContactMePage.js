@@ -6,18 +6,13 @@ import {
   Card,
   CardHeader,
   CardBody,
-  CardFooter,
   CardImg,
   CardTitle,
-  Label,
-  FormGroup,
   Form,
   Input,
   InputGroupAddon,
   InputGroupText,
   InputGroup,
-  Container,
-  Row,
   Col,
 } from "reactstrap";
 
@@ -27,8 +22,7 @@ import Footer from "components/Footers/DarkFooter.js";
 
 export default function LandingPage() {
   const [fullNameFocus, setFullNameFocus] = React.useState(false);
-  const [emailFocus, setEmailFocus] = React.useState(false);
-  const [passwordFocus, setPasswordFocus] = React.useState(false);
+  const [emailFocus, setEmailFocus] = React.useState(false); 
   React.useEffect(() => {
     document.body.classList.toggle("landing-page");
     // Specify how to clean up after this effect:
@@ -92,7 +86,6 @@ export default function LandingPage() {
                   </InputGroup>
                   <InputGroup
                     className={classnames({
-                      "input-group-focus": passwordFocus,
                     })}
                   >
                     <Input

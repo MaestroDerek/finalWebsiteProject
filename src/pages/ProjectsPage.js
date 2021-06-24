@@ -2,8 +2,6 @@
 import React from "react";
 import {
   Button,
-  Row,
-  Col,
 } from "reactstrap";
 
 // core components

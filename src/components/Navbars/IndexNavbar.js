@@ -14,13 +14,10 @@ import {
   NavItem,
   Nav,
   Container,
-  Row,
-  Col,
   UncontrolledTooltip,
 } from "reactstrap";
 
 export default function IndexNavbar() {
-  const [collapseOpen, setCollapseOpen] = React.useState(false);
   const [collapseOut, setCollapseOut] = React.useState("");
   const [color, setColor] = React.useState("navbar-transparent");
   React.useEffect(() => {
@@ -42,10 +39,6 @@ export default function IndexNavbar() {
       setColor("navbar-transparent");
     }
   };
-  const toggleCollapse = () => {
-    document.documentElement.classList.toggle("nav-open");
-    setCollapseOpen(!collapseOpen);
-  };
   const onCollapseExiting = () => {
     setCollapseOut("collapsing-out");
   };
@@ -66,7 +59,6 @@ export default function IndexNavbar() {
         <Collapse
           className={"justify-content-end " + collapseOut}
           navbar
-          isOpen={collapseOpen}
           onExiting={onCollapseExiting}
           onExited={onCollapseExited}
         >
