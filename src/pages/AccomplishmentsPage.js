@@ -59,23 +59,20 @@ export default function LandingPage() {
                   Accomplishments
                 </h1>
                 <p className="text-white mb-3">
-               <p>University of Rio Grande (06/01/2018)</p>
-               AAS IT:Networking Systems
+                  <p>University of Rio Grande (06/01/2018)</p>
+                  <h4>AAS IT:Networking Systems</h4>
 
-               <p>Rowan College at Burlington County (06/01/2020)</p>
-               AAS Computer Science
+                  <p>Rowan College at Burlington County (06/01/2020)</p>
+                  <h4>AAS Computer Science</h4>
 
-               <p>Rowan College (Expected 12/30/2021)</p>
-               BS Computer Science
+                  <p>Rowan College (Expected 12/30/2021)</p>
+                  <h4>BS Computer Science</h4>
 
-               <p>Current Intern as AFMS since 05/14/2018</p>
+                  <p>Successfully survived COVID-19</p>
 
-               <p>Successfully survived COVID-19</p>
+                  <p>Once bowled a 200</p>
 
-               <p>Once bowled a 200</p>
-
-               <p>Met Kanye West</p>
-                </p>
+                  <p>Met Kanye West</p>
                 </p>
               </Col>
             </Row>
